@@ -1,7 +1,7 @@
 <template>
   <el-row type="flex" justify="center">
-    <el-col :ex="24" :sm="18" :md="12" lg="10">
-      <app-post
+    <el-col :ex="16" :sm="13" :md="10" lg="7">
+      <app-pos
       v-for="post in 3"
       :key="post"
       />
@@ -10,13 +10,13 @@
 </template>
 
 <script>
-import AppPost from '@/components/main/Post'
+import AppPos from '@/components/main/post'
 export default {
   head: {
     title: 'Главная'
   },
   components: {
-    AppPost
+    AppPos
   }
 }
 </script>

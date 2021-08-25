@@ -16,7 +16,7 @@ export default {
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
+  // Global CSS: https://go.nuxtjs.dev/config-css подключение глобальных и собственных стилей
   css: [
     '@node_modules/bootstrap/dist/css/bootstrap.css',
     '@node_modules/element-ui/lib/theme-chalk/index.css',
