@@ -25,6 +25,7 @@
         type="primary"
         native-type="submit"
         round
+        :loading="loading"
       >
         Комментировать
 
@@ -38,6 +39,7 @@ export default {
   name: "CommentForm",
   data() {
     return {
+      loading: false,
       controls: {
         name: '',
         text: ''
@@ -60,7 +62,19 @@ export default {
     onSubmit() {
       this.$refs.form.validate(valid => {
         if (valid) {
-          console.log('Form is Valid!')
+          this.loading = true
+
+          const formData = {
+            name: this.controls.name,
+            text: this.controls.text,
+            postId: '',
+          }
+          try {
+            this.$message.success('Комментарий добавлен');
+            this.$emit('created')
+          } catch (e) {
+            this.loading = false
+          }
         }
       })
     }
