@@ -20,12 +20,12 @@ export default {
   css: [
     '@node_modules/bootstrap/dist/css/bootstrap.css',
     '@node_modules/element-ui/lib/theme-chalk/index.css',
-    '@theme/index.scss'
+    '@theme/index.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '@/plugins/globals'
+    '@/plugins/globals',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

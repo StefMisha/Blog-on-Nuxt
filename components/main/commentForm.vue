@@ -36,7 +36,7 @@
 
 <script>
 export default {
-  name: "CommentForm",
+  name: "commentForm",
   data() {
     return {
       loading: false,

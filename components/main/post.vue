@@ -22,6 +22,7 @@
     </div>
     <footer class="post-footer">
       <el-button type="primary" plain @click="openPost">Читать</el-button>
+      <div class="btn btn__primary"><p>Button</p></div>
 
       <span>
         <i class="el-icon-message"></i>
@@ -32,6 +33,7 @@
 </template>
 
 <script>
+
 export default {
   methods: {
     openPost() {

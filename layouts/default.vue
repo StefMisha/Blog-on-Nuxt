@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import AppNavigation from '@/components/main/Navigation'
+import AppNavigation from '@/components/main/navigation'
 
 export default {
   name: "default",

@@ -15,8 +15,12 @@
 
 <script>
 export default {
-  name: "Comment",
-  props: ['comment']
+  name: "comment",
+  props: {
+    comment: {
+      type: String
+    }
+  }
 }
 </script>
 
@@ -31,7 +35,7 @@ export default {
     margin-bottom: 0.5rem;
     font-size: .8rem;
   }
-  .name {
-
-  }
+  //.name {
+  //
+  //}
 </style>

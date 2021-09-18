@@ -52,8 +52,8 @@
 </template>
 
 <script>
-import AppComment from '@/components/main/Comment'
-import AppCommentForm from '@/components/main/CommentForm'
+import AppComment from '@/components/main/comment'
+import AppCommentForm from '@/components/main/commentForm'
 
 export default {
   validate({params}) {
