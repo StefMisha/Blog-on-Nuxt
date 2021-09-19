@@ -16,6 +16,7 @@ export default {
     ]
   },
 
+  loading: { color: '#409eff'},
   // Global CSS: https://go.nuxtjs.dev/config-css подключение глобальных и собственных стилей
   css: [
     '@node_modules/bootstrap/dist/css/bootstrap.css',

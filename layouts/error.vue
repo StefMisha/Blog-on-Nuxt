@@ -3,7 +3,6 @@
     <div class="error-content">
       <h1 class="error-title">Ошибка 404</h1>
         <nuxt-link class="btn btn__secondary" to="/">Home</nuxt-link>
-      <div class="btn btn__primary"><p>Button</p></div>
 
     </div>
   </div>
